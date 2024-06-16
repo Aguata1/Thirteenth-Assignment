@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(237, 234, 204);
+}
+
+.body-container{
+    background-color:gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+    color: white;
+    overflow: hidden;
+    padding: 5px;
+}
+
+
+.img2{
+    width: 18rem;
+}
+
+.img3{
+
+    width: 22rem;
+}
+
+.con4 .img2{
+    height: 100%;
+    width: 38rem;  
+}
+ 
+.box1,.box2,.box3{
+    height: 100%;
+}
+
+.post-btn{
+    background-color: blue;
+}
