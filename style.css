@@ -15,11 +15,13 @@ body{
 
 .img2{
     width: 18rem;
+    height: 555px;
 }
 
 .img3{
 
     width: 22rem;
+    height: 1115px;
 }
 
 .con4 .img2{
@@ -34,3 +36,23 @@ body{
 .post-btn{
     background-color: blue;
 }
+@media screen and (max-width: 768px) {
+    .body-container {
+      width: 100%;
+      padding: 10px;
+    }
+
+    @media screen and (max-width: 1440px){
+        .body-container {
+          width: 90%;
+        }
+
+        @media screen and (max-width: 1440px){
+            body{
+              width: 90%;
+            }
+            @media screen and (max-width: 768px) {
+                body {
+                  width: 100%;
+                  padding: 10px;
+                }
